@@ -26,7 +26,7 @@
 </head>
 <body class="py-10 px-4">
   <div class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow-lg">
-    <h1 class="text-3xl font-bold mb-6 text-center">Love Compatibility Calculator 💖</h1>
+    <h1 class="text-3xl font-bold mb-6 text-center">Love Compatibility Calculator 💖🫶</h1>
     <form id="compatibilityForm" class="space-y-4">
       <div>
         <label for="name1" class="block mb-2">Enter Your Name:</label>
@@ -155,18 +155,11 @@
     </div>
     <footer class="text-center text-gray-500 text-sm mt-8">Build By Nikhil with Love in India © 2024</footer>
   </div>
-  <audio controls crossorigin="anonymous">
+  <audio  style="display: none"; controls autoplay controls crossorigin="anonymous">
     <source  src="https://drive.lienuc.com/uc?id=1LgQjyegUlNxsl_i0graeb7Of17iaH9kr">
   </audio>
 
    <script>
-window.addEventListener("DOMContentLoaded", event => {
-  const audio = document.querySelector("audio");
-  audio.volume = 0.2;
-  audio.play();
-});
-
-
     document.getElementById('compatibilityForm').addEventListener('submit', function(event) {
       event.preventDefault();
 
