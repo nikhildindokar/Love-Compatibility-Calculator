@@ -155,8 +155,15 @@
     </div>
     <footer class="text-center text-gray-500 text-sm mt-8">Build By Nikhil with Love in India © 2024</footer>
   </div>
-
+  <audio src="Dil-Diyan-Gallan-Song.mp3"></audio>
   <script>
+
+window.addEventListener("DOMContentLoaded", event => {
+  const audio = document.querySelector("audio");
+  audio.volume = 0.2;
+  audio.play();
+});
+
     document.getElementById('compatibilityForm').addEventListener('submit', function(event) {
       event.preventDefault();
 
